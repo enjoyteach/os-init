@@ -237,7 +237,25 @@ github地址：https://github.com/1Panel-dev/1Panel
 
       5. 解决arm架构的软件安装问题：
 
+         下载Genymotion_ARM_Translation ： https://github.com/m9rco/Genymotion_ARM_Translation/blob/master/package/Genymotion-ARM-Translation_for_9.0.zip 【注意：千万别复制链接，点下载按钮，我下在的安卓9转换，根据自己的需要下载版本】
 
+         将下载的文件直接拖进Genymotion已经打开的安卓虚拟机窗口就行了。
+
+         如果拖进提示复制到/sdcard/Download  说明没有成功执行转换工具，则需要使用adb连接虚拟机  执行` adb shell  /system/bin/flash-archive.sh /sdcard/Download/Genymotion-ARM-Translation_for_9.0.zip`
+
+         adb如果执行报错，则说明电脑没有安装安卓SDK与tools。 安装SDK和tools操作连接
+
+         安装完成继续执行命令理论上还可能报错：(这是因为Genymotion的设置未使用本地安装的SDK)
+
+            ...
+         
+            [ERROR][unzip_archive_in_extract_dir] unzip failed: /sdcard/Download/Genymotion-
+
+            ARM-Translation.zip
+            
+            {Result:KO};
+
+            解决方法：1.打开Genymotion 2.进入设置 3.选择ADB选项 4.设置为 Use custom android SDK tools 5.点击BROWSE 选中本地安装的SDK目录
     
 12. 飞天软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
 
