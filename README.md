@@ -174,7 +174,21 @@ appimage安装:  进入文件所在目录，运行
    `chmod +x Motrix-1.8.19.AppImage`  #增加执行权限appimage文件需要先给运行权限
    `./Motrix-1.8.19.AppImage`         #运行程序
    
+4. 办公软件-libreoffice(apt安装-开源软件)
 
+5. 脑图软件-freeplane（snap安装-开源）
+
+6. 绘图软件-kolourpaint（snap安装-开源）
+
+7. 动态壁纸软件
+
+8. 浏览器
+    
+9. 虚拟机
+    
+10. 安卓虚拟机
+    
+11. 飞天软件
 
 
 
