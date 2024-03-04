@@ -219,9 +219,27 @@ github地址：https://github.com/1Panel-dev/1Panel
 
     deb安装：  `sudo dpkg -i virtualbox-7.0_7.0.14-161095~Ubuntu~jammy_amd64.deb` #请确定已经在文件所在的目录下
     
-10. 安卓虚拟机
+10. 安卓虚拟机-Genymotion(bin安装-闭源)
+
+      该软件可以在任何平台运行，但是软件是基于虚拟机VirtualBox，所以电脑中需要提前安装VirtualBox，软件可以模拟任何版本的android系统，并且分辨率品牌等都可以设置，适合开发者使用。
+
+       该软件是基于x86版本设计的所以arm架构的软件无法运行，需要安装转换工具便可以随意运行。转换软件地址：https://github.com/m9rco/Genymotion_ARM_Translation/tree/master/package (根据版本自行下载)
     
-11. 飞天软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
+   安装：
+
+      1. 到官网下载对应版本的镜像文件：https://www.genymotion.com/product-desktop/download/  我们下载linux的.BIN文件
+
+      2. 修改软件执行权限  ` chmod u+x genymotion-3.6.0-linux_x64.bin`
+
+      3. 安装并制定安装路径 ` sudo ./genymotion-3.6.0-linux_x64.bin -d ~/opt`  出现提示按y同意
+
+      4. 此时可以点击软件图表进入软件了（软件使用此处不做详解）
+
+      5. 解决arm架构的软件安装问题：
+
+
+    
+12. 飞天软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
 
    下载地址：https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-linux-x64.AppImage
 
