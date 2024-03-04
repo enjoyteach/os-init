@@ -130,6 +130,7 @@ docker命令不在此出列出，我们使用软件或者ui面板操作（废话
 ---
 
 # 1panel的安装
+
 github地址：https://github.com/1Panel-dev/1Panel
 
 安装命令：`curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sudo bash quick_start.sh`
@@ -225,6 +226,7 @@ github地址：https://github.com/1Panel-dev/1Panel
    下载地址：https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-linux-x64.AppImage
 
    安装：
+   
       1. 将下载的Qv2ray-v2.7.0-linux-x64.AppImage 移动到指定目录(看个人喜好，我喜欢/opt/v2ray)   `sudo mv Qv2ray-v2.7.0-linux-x64.AppImage /opt/v2ray`
       
       2. 修改执行权限 `chmod +x /opt/v2ray/Qv2ray-v2.7.0-linux-x64.AppImage`
