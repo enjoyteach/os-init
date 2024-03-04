@@ -226,11 +226,17 @@ github地址：https://github.com/1Panel-dev/1Panel
 
    安装：
       1. 将下载的Qv2ray-v2.7.0-linux-x64.AppImage 移动到指定目录(看个人喜好，我喜欢/opt/v2ray)   `sudo mv Qv2ray-v2.7.0-linux-x64.AppImage /opt/v2ray`
+      
       2. 修改执行权限 `chmod +x /opt/v2ray/Qv2ray-v2.7.0-linux-x64.AppImage`
+      
       3. 运行软件 `/opt/v2ray/Qv2ray-v2.7.0-linux-x64.AppImage`  #如果已经在/opt/v2ray下 直接运行`./Qv2ray-v2.7.0-linux-x64.AppImage`
+      
       4. 软件运行之后，无法直接使用，需要设置软件使用的v2ray核心地址才可以
+      
       5. 下载v2ray-core核心 https://github.com/v2fly/v2ray-core/releases/download/v5.14.0/v2ray-linux-64.zip 并且解压
+      
       6. 移动到制定的文件夹(看个人喜好，我喜欢/opt/v2ray) `sudo mv v2ray-linux-64  /opt/v2ray`
+      
       7. 点击Qv2ray ->首选项->内核设置->
       
                v2ray可执行文件路径 :/opt/v2ray/v2ray-linux-64/v2ray
