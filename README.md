@@ -129,8 +129,53 @@ docker命令不在此出列出，我们使用软件或者ui面板操作（废话
 ```
 ---
 
-# web服务器搭建
+# 1panel的安装
+github地址：https://github.com/1Panel-dev/1Panel
+
+安装命令：`curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sudo bash quick_start.sh`
+
+安装过程中会提示设置安装位置：默认为/opt
+安装过程中会提示设置设置端口：随意设置（1-65535） 尽量不要使用低端口（1-1024）也不要和其他端口冲突
+安装过程中会提示设置后台用户名：随便写（不写就随即生成）
+安装过程中会提示设置后台密码：随便写（不写就随即生成）
+
+安装完成后会提示web后台入口：
+
+`http://目标服务器 IP 地址:目标端口/安全入口`
+
+
 
 # 本地软件安装与卸载
+
+1. 脑图软件-freeplane （snap安装-开源）https://github.com/freeplane/freeplane
+
+安装命令：`snap install freeplane-mindmapping`
+
+biu的一下就安装完毕了（不想写命令可以在ubuntu software中直接搜索下载）
+
+2. 开发软件-vscode （deb安装-开源）https://github.com/microsoft/vscode
+
+github上只有源码，没有deb包，需要从vscode官网进入下载(别下rpm那是centos系列的)   https://code.visualstudio.com/
+
+安装命令：dpkg -i  deb文件
+
+友情提示，需要进入deb文件位置或者dpkg -i 把文件拖进取都性
+
+3. 下载软件-motrix(开源deb或appimage) https://github.com/agalwood/Motrix
+
+   github提供了appimage文件，官网提供多类型，包含deb、snap等  https://motrix.app/download （官网）
+   
+snap安装： `snap install motrix`
+
+deb安装： `sudo dpkg -i Motrix_1.8.19_amd64.deb`  #这里下载的版本是1.8.19  amd64表示CPU架构是X86 
+
+appimage安装:  进入文件所在目录，运行 
+
+   `chmod +x Motrix-1.8.19.AppImage`  #增加执行权限appimage文件需要先给运行权限
+   `./Motrix-1.8.19.AppImage`         #运行程序
+   
+
+
+
 
 # 系统备份还原
