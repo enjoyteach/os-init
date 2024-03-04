@@ -183,23 +183,63 @@ github地址：https://github.com/1Panel-dev/1Panel
 
    如果需要离线安装，请去官网下载deb包：https://www.libreoffice.org/download/download-libreoffice/
 
-7. 脑图软件-freeplane（snap安装-开源）https://github.com/freeplane/freeplane
+6. 脑图软件-freeplane（snap安装-开源）https://github.com/freeplane/freeplane
 
    snap安装：`snap install freeplane`  #ubuntu server商店也有   
 
-9. 绘图软件-kolourpaint（snap安装-开源）https://github.com/KDE/kolourpaint
+7. 绘图软件-kolourpaint（snap安装-开源）https://github.com/KDE/kolourpaint
 
    snap安装：`snap install kolourpaint`  #ubuntu server商店也有  
 
-10. 动态壁纸软件
+8. 动态壁纸软件-fantascene-dynamic-wallpaper（）https://github.com/enjoyteach/fantascene-dynamic-wallpaper
 
-11. 浏览器
+   官方提供的下载地址：https://software.opensuse.org//download.html?project=home%3Aliuminghang&package=fantascene-dynamic-wallpaper  #readme中书写的
+
+   下载符合系统的deb安装包：fantascene-dynamic-wallpaper_1.6.4-1_amd64.deb
+
+   deb安装：`dpkg -i fantascene-dynamic-wallpaper_1.6.4-1_amd64.deb`  #请确定已经在文件所在的目录下
+   
+
+11. 浏览器-chromium/chrome(snap/deb安装-开源)
+
+    chromium是chrome的现行版，可以理解为新技术的测试基地，完全开源，不包含google组件大礼包，但是不会自动更新。
     
-12. 虚拟机
+    snap安装:`snap install chromium`
+
+    chrome谷歌浏览器，无需介绍
+
+    下载deb安装包：https://www.google.cn/chrome/index.html
+
+    deb安装：`sudo dpkg -i google-chrome-stable_current_amd64.deb` #请确定已经在文件所在的目录下
     
-13. 安卓虚拟机
+9. 虚拟机-VirtualBox(deb安装-开源)
+
+    下载地址：https://www.virtualbox.org/wiki/Linux_Downloads
+
+    deb安装：  `sudo dpkg -i virtualbox-7.0_7.0.14-161095~Ubuntu~jammy_amd64.deb` #请确定已经在文件所在的目录下
     
-14. 飞天软件
+10. 安卓虚拟机
+    
+11. 飞天软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
+
+   下载地址：https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-linux-x64.AppImage
+
+   安装：
+      1. 将下载的Qv2ray-v2.7.0-linux-x64.AppImage 移动到指定目录(看个人喜好，我喜欢/opt/v2ray)   `sudo mv Qv2ray-v2.7.0-linux-x64.AppImage /opt/v2ray`
+      2. 修改执行权限 `chmod +x /opt/v2ray/Qv2ray-v2.7.0-linux-x64.AppImage`
+      3. 运行软件 `/opt/v2ray/Qv2ray-v2.7.0-linux-x64.AppImage`  #如果已经在/opt/v2ray下 直接运行`./Qv2ray-v2.7.0-linux-x64.AppImage`
+      4. 软件运行之后，无法直接使用，需要设置软件使用的v2ray核心地址才可以
+      5. 下载v2ray-core核心 https://github.com/v2fly/v2ray-core/releases/download/v5.14.0/v2ray-linux-64.zip 并且解压
+      6. 移动到制定的文件夹(看个人喜好，我喜欢/opt/v2ray) `sudo mv v2ray-linux-64  /opt/v2ray`
+      7. 点击Qv2ray ->首选项->内核设置->
+      
+               v2ray可执行文件路径 :/opt/v2ray/v2ray-linux-64/v2ray
+               
+               v2ray资源路径 :/opt/v2ray/v2ray-linux-64/
+
+         点击ok完成设置。至于怎么起飞。。。服务器设置方法：https://github.com/enjoyteach/v2ray-v2fly-core  
+
+
 
 
 
