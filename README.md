@@ -257,8 +257,12 @@ github地址：https://github.com/1Panel-dev/1Panel
 
             解决方法：1.打开Genymotion 2.进入设置 3.选择ADB选项 4.设置为 Use custom android SDK tools 5.点击BROWSE 选中本地安装的SDK目录
     
-12. 飞天软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
+12. 大飞机软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
 
+   snap安装：`snap install Qv2ray` #snap商店就有该软件
+
+   appimage安装：
+   
    下载地址：https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-linux-x64.AppImage
 
    安装：
@@ -282,7 +286,10 @@ github地址：https://github.com/1Panel-dev/1Panel
                v2ray资源路径 :/opt/v2ray/v2ray-linux-64/
 
          点击ok完成设置。至于怎么起飞。。。服务器设置方法：https://github.com/enjoyteach/v2ray-v2fly-core  
+         
+13. 小飞机软件-shadowsocks-electron(snap安装-开源)
 
+    snap安装：`snap install shadowsocks-electron` #snap商店就有该软件
 
 
 
