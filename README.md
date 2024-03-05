@@ -231,7 +231,7 @@ github地址：https://github.com/1Panel-dev/1Panel
 
       2. 修改软件执行权限  ` chmod u+x genymotion-3.6.0-linux_x64.bin`
 
-      3. 安装并制定安装路径 ` sudo ./genymotion-3.6.0-linux_x64.bin -d ~/opt`  出现提示按y同意
+      3. 安装并制定安装路径 ` sudo ./genymotion-3.6.0-linux_x64.bin -d /opt`  出现提示按y同意
 
       4. 此时可以点击软件图表进入软件了（软件使用此处不做详解）
 
@@ -239,7 +239,7 @@ github地址：https://github.com/1Panel-dev/1Panel
 
          下载Genymotion_ARM_Translation ： https://github.com/m9rco/Genymotion_ARM_Translation/blob/master/package/Genymotion-ARM-Translation_for_9.0.zip 【注意：千万别复制链接，点下载按钮，我下在的安卓9转换，根据自己的需要下载版本】
 
-         将下载的文件直接拖进Genymotion已经打开的安卓虚拟机窗口就行了。
+         将下载的文件直接拖进Genymotion已经打开的安卓虚拟机窗口就行了。然后就可以使用arm架构的app！
 
          如果拖进提示复制到/sdcard/Download  说明没有成功执行转换工具，则需要使用adb连接虚拟机  执行` adb shell  /system/bin/flash-archive.sh /sdcard/Download/Genymotion-ARM-Translation_for_9.0.zip`
 
@@ -259,7 +259,9 @@ github地址：https://github.com/1Panel-dev/1Panel
     
 12. 大飞机软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
 
-   snap安装：`snap install Qv2ray` #snap商店就有该软件
+   snap安装：`snap install Qv2ray` #snap商店就有该软件 不过这个版本有bug 闪退 无法连接等
+
+   snap安装：`snap install v2rayX` # 这个好用 英文的 看自己情况，都不喜欢就走下面的
 
    appimage安装：
    
