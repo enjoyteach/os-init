@@ -42,6 +42,11 @@ Snap还原到以前安装的版本：
 dpkg 是“Debian Packager ”的简写。为 “Debian” 专门开发的套件管理系统，方便软件的安装、更新及移除。可以理解为类似window的安装文件exe或者msi文件。不过用着个安装的话软件的程序可能分布在不同的目录，删除使用命令别直接删除
 deb安装文件的后缀是deb，使用dpkg命令进行安装与卸载操作
 
+
+使用dpkg -i   *.deb 的时候出现依赖没有安装
+
+使用apt-get -f -y install  解决依赖问题后再执行dpkg安装deb包
+
 ## 常用命令：
 
 
