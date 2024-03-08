@@ -205,6 +205,11 @@ github地址：https://github.com/1Panel-dev/1Panel
 
    deb安装：`dpkg -i fantascene-dynamic-wallpaper_1.6.4-1_amd64.deb`  #请确定已经在文件所在的目录下
    
+10. 动态壁纸软件-komorebi（deb安装 - 开源）  https://github.com/cheesecakeufo/komorebi
+
+      下载最新版komorebi：
+
+       deb安装： sudo dpkg -i komorebi.deb
 
 11. 浏览器-chromium/chrome(snap/deb安装-开源)
 
@@ -218,13 +223,15 @@ github地址：https://github.com/1Panel-dev/1Panel
 
     deb安装：`sudo dpkg -i google-chrome-stable_current_amd64.deb` #请确定已经在文件所在的目录下
     
-9. 虚拟机-VirtualBox(deb安装-开源)
+12. 虚拟机-VirtualBox(deb安装-开源)
 
     下载地址：https://www.virtualbox.org/wiki/Linux_Downloads
 
     deb安装：  `sudo dpkg -i virtualbox-7.0_7.0.14-161095~Ubuntu~jammy_amd64.deb` #请确定已经在文件所在的目录下
+
+    snap安装：   `snap install  virtualbox`
     
-10. 安卓虚拟机-Genymotion(bin安装-闭源)
+13. 安卓虚拟机-Genymotion(bin安装-闭源)
 
       该软件可以在任何平台运行，但是软件是基于虚拟机VirtualBox，所以电脑中需要提前安装VirtualBox，软件可以模拟任何版本的android系统，并且分辨率品牌等都可以设置，适合开发者使用。
 
@@ -262,7 +269,7 @@ github地址：https://github.com/1Panel-dev/1Panel
 
             解决方法：1.打开Genymotion 2.进入设置 3.选择ADB选项 4.设置为 Use custom android SDK tools 5.点击BROWSE 选中本地安装的SDK目录
     
-12. 大飞机软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
+14. 大飞机软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
 
    snap安装：`snap install Qv2ray` #snap商店就有该软件 不过这个版本有bug 闪退 无法连接等
 
@@ -293,8 +300,12 @@ github地址：https://github.com/1Panel-dev/1Panel
                v2ray资源路径 :/opt/v2ray/v2ray-linux-64/
 
          点击ok完成设置。至于怎么起飞。。。服务器设置方法：https://github.com/enjoyteach/v2ray-v2fly-core  
+
+15. 大飞机-V2rayX (snap安装-开源)
+
+    snap安装：snap install V2rayX
          
-13. 小飞机软件-shadowsocks-electron(snap安装-开源)
+16. 小飞机软件-shadowsocks-electron(snap安装-开源)
 
     snap安装：`snap install shadowsocks-electron` #snap商店就有该软件
 
