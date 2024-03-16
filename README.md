@@ -211,7 +211,19 @@ github地址：https://github.com/1Panel-dev/1Panel
 
        deb安装： sudo dpkg -i komorebi.deb
 
-11. 浏览器-chromium/chrome(snap/deb安装-开源)
+    本软件在22.04上有问题无法打开设置页面，不过没关系。。可以进入配置文件直接改  修改下  ~/.Komorebi.prop 的文件即可：
+
+
+   `
+   [KomorebiProperties]
+   WallpaperName=foggy_sunny_mountain   这个就是设置的壁纸名（不是文件名，是使用creater创建的）
+   TimeTwentyFour=true
+   ShowDesktopIcons=true
+   EnableVideoWallpapers=true
+   `
+   生成的壁纸保存在/System/Resources/Komorebi 之下，这下面就是creater创建的壁纸名 文件夹格式存在
+
+12. 浏览器-chromium/chrome(snap/deb安装-开源)
 
     chromium是chrome的现行版，可以理解为新技术的测试基地，完全开源，不包含google组件大礼包，但是不会自动更新。
     
@@ -223,7 +235,7 @@ github地址：https://github.com/1Panel-dev/1Panel
 
     deb安装：`sudo dpkg -i google-chrome-stable_current_amd64.deb` #请确定已经在文件所在的目录下
     
-12. 虚拟机-VirtualBox(deb安装-开源)
+13. 虚拟机-VirtualBox(deb安装-开源)
 
     下载地址：https://www.virtualbox.org/wiki/Linux_Downloads
 
@@ -231,7 +243,7 @@ github地址：https://github.com/1Panel-dev/1Panel
 
     snap安装：   `snap install  virtualbox`
     
-13. 安卓虚拟机-Genymotion(bin安装-闭源)
+14. 安卓虚拟机-Genymotion(bin安装-闭源)
 
       该软件可以在任何平台运行，但是软件是基于虚拟机VirtualBox，所以电脑中需要提前安装VirtualBox，软件可以模拟任何版本的android系统，并且分辨率品牌等都可以设置，适合开发者使用。
 
