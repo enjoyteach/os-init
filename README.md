@@ -214,14 +214,14 @@ github地址：https://github.com/1Panel-dev/1Panel
     本软件在22.04上有问题无法打开设置页面，不过没关系。。可以进入配置文件直接改  修改下  ~/.Komorebi.prop 的文件即可：
 
 
-   `
+   ```
    [KomorebiProperties]
    WallpaperName=foggy_sunny_mountain   这个就是设置的壁纸名（不是文件名，是使用creater创建的）
    TimeTwentyFour=true
    ShowDesktopIcons=true
    EnableVideoWallpapers=true
-   `
-   生成的壁纸保存在/System/Resources/Komorebi 之下，这下面就是creater创建的壁纸名 文件夹格式存在
+   ````
+   生成的壁纸保存在`/System/Resources/Komorebi` 之下，这下面就是creater创建的壁纸名 文件夹格式存在
 
 12. 浏览器-chromium/chrome(snap/deb安装-开源)
 
