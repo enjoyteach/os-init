@@ -312,11 +312,13 @@ snap安装：`snap install bleachbit`
 
 apt安装：`sudo  apt  install timeshift`
 
-23.音乐聚合-musicfree
+23.音乐聚合-musicfree  https://github.com/maotoumao/MusicFreeDesktop
 
-deb安装
 
-24.视频聚合-zyplayer
+
+24.视频聚合-zyplayer   https://github.com/Hiram-Wong/ZyPlayer/releases
+
+
 
 25.录制退流-obs
 
