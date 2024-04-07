@@ -153,9 +153,8 @@ github地址：https://github.com/1Panel-dev/1Panel
 
 # 本地软件安装与卸载
 
-1. 脑图软件-freeplane （snap安装-开源）https://github.com/freeplane/freeplane
-
-   安装命令：`snap install freeplane-mindmapping`
+1. 流程图软件-draw.io （snap安装-开源）
+   安装命令：`snap install drawio`
    
    biu的一下就安装完毕了（不想写命令可以在ubuntu software中直接搜索下载）
 
@@ -181,13 +180,8 @@ github地址：https://github.com/1Panel-dev/1Panel
    
    `./Motrix-1.8.19.AppImage`         #运行程序
    
-5. 办公软件-libreoffice(apt安装-开源软件)
+5. 办公软件-wps(deb安装-开源软件)
    
-   软件本身桌面版系统自带，如果删除了想重新安装可以在ubuntu server中搜索office安装即可
-
-   使用apt也可以安装：`apt install libreoffice`
-
-   如果需要离线安装，请去官网下载deb包：https://www.libreoffice.org/download/download-libreoffice/
 
 6. 脑图软件-freeplane（snap安装-开源）https://github.com/freeplane/freeplane
 
@@ -280,48 +274,46 @@ github地址：https://github.com/1Panel-dev/1Panel
             {Result:KO};
 
             解决方法：1.打开Genymotion 2.进入设置 3.选择ADB选项 4.设置为 Use custom android SDK tools 5.点击BROWSE 选中本地安装的SDK目录
-    
-14. 大飞机软件-Qv2ray(appimage安装-开源)https://github.com/Qv2ray/Qv2ray/
 
-   snap安装：`snap install Qv2ray` #snap商店就有该软件 不过这个版本有bug 闪退 无法连接等
+14. 大飞机-V2rayX (snap安装-开源)
 
-   snap安装：`snap install v2rayX` # 这个好用 英文的 看自己情况，都不喜欢就走下面的
-
-   appimage安装：
-   
-   下载地址：https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-linux-x64.AppImage
-
-   安装：
-   
-      1. 将下载的Qv2ray-v2.7.0-linux-x64.AppImage 移动到指定目录(看个人喜好，我喜欢/opt/v2ray)   `sudo mv Qv2ray-v2.7.0-linux-x64.AppImage /opt/v2ray`
-      
-      2. 修改执行权限 `chmod +x /opt/v2ray/Qv2ray-v2.7.0-linux-x64.AppImage`
-      
-      3. 运行软件 `/opt/v2ray/Qv2ray-v2.7.0-linux-x64.AppImage`  #如果已经在/opt/v2ray下 直接运行`./Qv2ray-v2.7.0-linux-x64.AppImage`
-      
-      4. 软件运行之后，无法直接使用，需要设置软件使用的v2ray核心地址才可以
-      
-      5. 下载v2ray-core核心 https://github.com/v2fly/v2ray-core/releases/download/v5.14.0/v2ray-linux-64.zip 并且解压
-      
-      6. 移动到制定的文件夹(看个人喜好，我喜欢/opt/v2ray) `sudo mv v2ray-linux-64  /opt/v2ray`
-      
-      7. 点击Qv2ray ->首选项->内核设置->
-      
-               v2ray可执行文件路径 :/opt/v2ray/v2ray-linux-64/v2ray
-               
-               v2ray资源路径 :/opt/v2ray/v2ray-linux-64/
-
-         点击ok完成设置。至于怎么起飞。。。服务器设置方法：https://github.com/enjoyteach/v2ray-v2fly-core  
-
-15. 大飞机-V2rayX (snap安装-开源)
-
-    snap安装：snap install V2rayX
+    snap安装：`snap install V2rayX`
          
-16. 小飞机软件-shadowsocks-electron(snap安装-开源)
+15.视频播放-Vlc
 
-    snap安装：`snap install shadowsocks-electron` #snap商店就有该软件
+   snap安装：`snap install vlc`
+
+         
+15.音视频剪辑-Kdenlive
+
+   snap安装：`snap install Kdenlive`
+
+
+16.数据库管理-dbeaver  https://github.com/dbeaver/dbeaver
+
+17 网络工具-网络工具
+
+   snap安装：`snap install 网络工具`
+
+18 markdown软件-notable
+
+ snap安装：`snap install notable`
+
+19. ssh管理-snowflake
+
+snap安装：`snap install snowflake`
+
+21. 系统清理 - bleachbit
+
+snap安装：`snap install bleachbit`
+
+22.系统备份-timeshift
+
+
+apt安装：`sudo  apt  install timeshift`
 
 
 
 
 # 系统备份还原
+
