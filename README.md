@@ -312,8 +312,13 @@ snap安装：`snap install bleachbit`
 
 apt安装：`sudo  apt  install timeshift`
 
+23.音乐聚合-musicfree
 
+deb安装
 
+24.视频聚合-zyplayer
+
+25.录制退流-obs
 
 # 系统备份还原
 
